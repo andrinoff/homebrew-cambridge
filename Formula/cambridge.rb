@@ -1,13 +1,13 @@
 class Cambridge < Formula
   desc "Cambridge International AS & A Level Pseudocode Interpreter and LSP"
   homepage "https://github.com/andrinoff/cambridge-lang"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.1/cambridge-macos-intel"
-      sha256 "3929aa3cf554d91f8c9f4fcad26b59c9ddd9383a580306e72fb9ae7e8b312cb7"
+      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.2/cambridge-macos-intel"
+      sha256 "d3e2750e31906bc798ce52895e0d05ab59d0310770d7704de9a134d9095ba1c3"
 
       def install
         bin.install "cambridge-macos-intel" => "cambridge"
@@ -15,8 +15,8 @@ class Cambridge < Formula
     end
 
     on_arm do
-      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.1/cambridge-macos-arm64"
-      sha256 "5adacf9362f42f68b6d17c43dcbc9a1fc01bbd006a30bb80c5c61200b6ccc0b6"
+      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.2/cambridge-macos-arm64"
+      sha256 "b073429cbc13ed3553bdc78497c0a695d4571798e60b9eccec4f72d1ae5d45b8"
 
       def install
         bin.install "cambridge-macos-arm64" => "cambridge"
@@ -26,8 +26,8 @@ class Cambridge < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.1/cambridge-linux-amd64"
-      sha256 "9590ae6a7c401d7996f84a836245691a2f7f64df2536cd9f5d83cda5b8f883f8"
+      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.2/cambridge-linux-amd64"
+      sha256 "3055b6a7b7f3107305381f914efb3e221e001ab254525635f842530dd4b12854"
 
       def install
         bin.install "cambridge-linux-amd64" => "cambridge"
@@ -35,8 +35,8 @@ class Cambridge < Formula
     end
 
     on_arm do
-      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.1/cambridge-linux-arm64"
-      sha256 "383b11a68fe2ede9c27c4e3fbd8134e1ef28ba646cca138eea83d51b14c060e2"
+      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.2/cambridge-linux-arm64"
+      sha256 "dfcb9c4204fd95e615722ed85ef76a1f0bc6708136340447afb852e86c4355ca"
 
       def install
         bin.install "cambridge-linux-arm64" => "cambridge"
