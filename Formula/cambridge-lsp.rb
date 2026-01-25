@@ -1,13 +1,13 @@
 class CambridgeLsp < Formula
   desc "Language Server Protocol implementation for Cambridge Pseudocode"
   homepage "https://github.com/andrinoff/cambridge-lang"
-  version "0.1.8"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.8/cambridge-lsp-macos-intel"
-      sha256 "f4f54727df4a0e480f70254676aaaefc0cef2812e0fa7dd504b9a4c739002a37"
+      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.2.0/cambridge-lsp-macos-intel"
+      sha256 "61a1dc3cd502bfadaef75c248aa13b9bca8ea95906dea65448306760250b0d53"
 
       def install
         bin.install "cambridge-lsp-macos-intel" => "cambridge-lsp"
@@ -15,8 +15,8 @@ class CambridgeLsp < Formula
     end
 
     on_arm do
-      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.8/cambridge-lsp-macos-arm64"
-      sha256 "39716bbdabf38ba8efb85b34fa8fb15371043c6aa6c4c372c46ec1e71757f25e"
+      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.2.0/cambridge-lsp-macos-arm64"
+      sha256 "a00688539c64abda6e655fd00ef9290a16cac2836ae401549a0bd8002001ac64"
 
       def install
         bin.install "cambridge-lsp-macos-arm64" => "cambridge-lsp"
@@ -26,8 +26,8 @@ class CambridgeLsp < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.1.8/cambridge-lsp-linux"
-      sha256 "3c748ed516afc59c4f9a72c58f7a15cc3ea37e3a2d9b274f56de8a6b197ea8ee"
+      url "https://github.com/andrinoff/cambridge-lang/releases/download/v0.2.0/cambridge-lsp-linux"
+      sha256 "3c5a7ceccebca50377306eac8160888b33351ff4ac3d8b4627766610d5ccdd5c"
 
       def install
         bin.install "cambridge-lsp-linux" => "cambridge-lsp"
